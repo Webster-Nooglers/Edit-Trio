@@ -646,7 +646,7 @@ textarea:focus {
       width: 70px;
       height: 40px;
       border-radius: 0 0 6px 0;
-      background-color: #e3d21b;
+      background-color: #3762f0;
       text-align: center;
       line-height: 40px;
       font-size: 12px;
@@ -674,7 +674,7 @@ textarea:focus {
     .single-course-intro .single-course-intro-content .ratings {
       margin-bottom: 20px; }
       .single-course-intro .single-course-intro-content .ratings i {
-        color: #e3d21b;
+        color: #3762f0;
         font-size: 13px;
         padding: 0 3px;
         display: inline-block; }
@@ -841,7 +841,7 @@ textarea:focus {
       .clever-curriculum .curriculum-level .curriculum-list li:last-child {
         margin-bottom: 0; }
       .clever-curriculum .curriculum-level .curriculum-list li i {
-        color: #e3d21b;
+        color: #3762f0;
         margin-right: 5px;
         display: inline-block; }
       .clever-curriculum .curriculum-level .curriculum-list li ul {
@@ -913,7 +913,7 @@ textarea:focus {
           font-size: 18px;
           display: inline-block;
           padding: 0 5px;
-          color: #e3d21b; }
+          color: #3762f0; }
       .clever-review .clever-ratings .total-ratings span {
         font-size: 12px;
         color: rgba(0, 0, 0, 0.3); }
@@ -978,7 +978,7 @@ textarea:focus {
       font-size: 14px;
       display: inline-block;
       padding: 0 3px;
-      color: #e3d21b; }
+      color: #3762f0; }
 
 .clever-members {
   position: relative;
@@ -1158,7 +1158,7 @@ textarea:focus {
             font-size: 14px; } }
       .sidebar-widget .single--courses .content h6 {
         font-size: 12px;
-        color: #e3d21b;
+        color: #3762f0;
         margin-bottom: 0; }
 
 .single-accordion.panel {
@@ -1274,7 +1274,7 @@ textarea:focus {
       width: 70px;
       height: 40px;
       border-radius: 0 0 6px 0;
-      background-color: #e3d21b;
+      background-color: #3762f0;
       text-align: center;
       line-height: 40px;
       font-size: 12px;
