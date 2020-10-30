@@ -1962,3 +1962,30 @@ textarea:focus {
         color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .iq_contact_info ul li{
+      padding-right:40px; 
+      padding-left:40px; 
+    }
+}
+@media (max-width: 991px) {
+  .iq_contact_info ul li{
+      padding-right:5px; 
+      padding-left:5px; 
+    }
+}
+@media (max-width: 767px) {
+	.iq_contact_info ul li{
+		width: 100%;
+	}
+
+.iq_contact_info ul li::before {
+	    height: 1px;
+	    right: 0;
+	    top: auto;
+	    width: 100%;
+	    bottom: 0;
+	    left: 0;
+	}
+}
