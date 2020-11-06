@@ -1,5 +1,5 @@
 
-<h1 align="center">Creating Java Servlet in Eclipse</h1>
+<h1 align="center">Creating Java Server Pages</h1>
 
 
 <br />
