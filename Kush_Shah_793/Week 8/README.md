@@ -1,6 +1,6 @@
 # Registration_form
-# tech stack used:
+# Tech stack used:
 > PHP<br>
-> html<br>
-> css<br>
-> js/jquery<br>
+> Html<br>
+> CSS<br>
+> Js/jquery<br>
