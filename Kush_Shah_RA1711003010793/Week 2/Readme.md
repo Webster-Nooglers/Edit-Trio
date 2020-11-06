@@ -1,5 +1,5 @@
 ```
-This week work wwas focused more on using semantic and media elements
+This week work was focused more on using semantic and media elements
 ```
 Follow the mentioned steps to successfully run the website:
 
