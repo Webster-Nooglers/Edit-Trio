@@ -1,3 +1,8 @@
+<hr>
+Name: <b>Kush Shah</b><br>
+Reg: <b>RA1711003010793</b><br>
+Course: <b>Web Programming</b><br>
+<hr>
 ### Resume making
 > Week 1
 
