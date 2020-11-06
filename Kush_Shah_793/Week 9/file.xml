@@ -1,17 +1,18 @@
-<Catalog>
-  <CD>
-    <Title>Payphone</Title>
-    <Artist>Maroon 5</Artist>
-    <Views>611 M</Views>
-  </CD>
-  <CD>
-    <Title>We are Young</Title>
-    <Artist>Fun</Artist>
-    <Views>825 M</Views>
-  </CD>
-  <CD>
-    <Title>Me and my Broken Heart</Title>
-    <Artist>Rixton</Artist>
-    <Views>284 M</Views>
-  </CD>
-</Catalog>
+<?xml version="1.0"?>
+<University>
+  <Course>
+    <Name>Computer Science</Name>
+    <Students>2000</Students>
+    <Placement>95%</Placement>
+  </Course>
+  <Course>
+    <Name>Mechanical Engineering</Name>
+    <Students>400</Students>
+    <Placement>40%</Placement>
+  </Course>
+  <Course>
+    <Name>Astronomy</Name>
+    <Students>50</Students>
+    <Placement>28%</Placement>
+  </Course>
+</University>
