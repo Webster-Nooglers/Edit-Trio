@@ -1,22 +1,22 @@
-# Resume making
+### Resume making
 > Week 1
 
-# Online Shopping Mart Website
+### Online Shopping Mart Website
 > Week 2 - Semantic and Media Elements
 > Week 3 - CSS3<br>
 > Week 4 - JavaScript<br>
 
-# Java Servlet
+### Java Servlet
 > Week 5
 
-# Java Server Pages
+### Java Server Pages
 > Week 6
 
-# AJAX
+### AJAX
 > Week 7
 
-# PHP 
+### PHP 
 > Week 8
 
-# XML
+### XML
 > Week 9
