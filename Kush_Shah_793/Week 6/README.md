@@ -109,9 +109,9 @@ To run the project successfully, you need to download and install the three tool
 
 #### Brief introduction of the process
 * Create a Dynamic web project
-* Create a servlet
+* Create a Java Server Page
 * Add servlet-api.jar file
-* Write the servlet code
+* Write the JSP code
 * Configure the server
 * Run the servlet
 
@@ -129,15 +129,15 @@ To run the project successfully, you need to download and install the three tool
 
 
 
-2. Creating a servlet in Eclipse
+2. Creating a JSP in Eclipse
 ```md
 2.1 Right click on the project name
-2.2 Click on New --> Servlet
-2.3 Enter the class name(say "MyServlet") --> Next --> Next
+2.2 Click on New --> JSP File
+2.3 Enter the File name(say "NewFile.jsp") --> Next --> Chose a template(New JSP File(html5))--> Finish
 2.4 Uncheck the methods that are not required and check the method names that you require in your project/java file --> Finish
 2.5 "MyServlet.java" file will be created with the basic template. Now you can write your own code here. 
 ```
-![](https://github.com/shahkv95/JavaServlet/blob/main/images/CreatingServlet.gif)
+
 
 3. Adding servlet-api.jar file
 ```md
@@ -156,59 +156,24 @@ To run the project successfully, you need to download and install the three tool
 4.2 You can write your own code in the java file
 4.3 For simplicity you can consider this code for ease of understanding
 ```
-```java
+```jsp
  
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+		String str = "Hello World";
+%>
 
-
-
-import java.io.IOException;
-import java.io.PrintWriter;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-/**
- * Servlet implementation class MyServlet
- */
-@WebServlet("/MyServlet")
-public class MyServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public MyServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		response.setContentType("text/html");
-		PrintWriter output=response.getWriter();
-		
-		output.print("<html><body>");
-		output.print("<h3>Hi! This is Kush Shah.</h3>");
-		output.print("<h3>And this output verifies that we have successfully deployed the servlet on tomcat v9.0 server.</h3>");
-		output.print("</body></html>");
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
-	}
-
-}
-
+<h1><%= str %></h1>
+</body>
+</html>
 
 
 ```
@@ -227,7 +192,7 @@ public class MyServlet extends HttpServlet {
 ![](https://github.com/shahkv95/JavaServlet/blob/main/images/ConfigureServlet.gif)
 
 
-6. Running the servlet
+6. Running the JSP
 ```md
 6.1 Right click on the project name
 6.2 Select Run As --> 1 Run on Server
@@ -237,7 +202,7 @@ public class MyServlet extends HttpServlet {
 6.6 To solve this issue, typw the name of the file after the '/'. So at the end it will look like --> <b>http://localhost:8080/understanding/file_name</b>
 6.7 Press Enter and you will be able to see the desired output...!
 ```
-![](https://github.com/shahkv95/JavaServlet/blob/main/images/RunningOnServer.gif)
+
 
 
 ### Directly running this project
@@ -288,8 +253,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 [Kush Shah](https://www.linkedin.com/in/kush-shah-5a771b169/)
-
-Project Link: [Java Servlet](https://github.com/shahkv95/JavaServlet)
 
 
 
