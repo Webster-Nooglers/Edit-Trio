@@ -1,0 +1,20 @@
+```
+<video>
+The video element of HTML5 allows us to embed video content into websites in a standard manner. 
+```
+```
+<audio>
+The audio element of HTML5 as well allows us to embed video content into websites in a standard manner. 
+```
+```
+<source>
+The source element is used to specify multiple media resources if more than one media element is being used.
+```
+```
+<track>
+The track element may be used to define which text track to attach to a media element, whether it's an audio or video.
+```
+```
+<embed>
+Its purpose was to allow developers to embed a third party data object into a web document.
+```
